@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.video-container {
+    position: relative;
+    text-align: center;
+}
+
+#playPauseBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  
+}
+
+#playPauseBtn:hover {
+    background-color: #0056b3;
+}
+.btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
